@@ -9,11 +9,11 @@ from helper.text import txt
 async def start_message(bot, message):
     await add_user(bot, message)    
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/BETA_SUPPORT"),
-        InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/Beta_BoTZ")
+        InlineKeyboardButton("Channel 📣", url="https://t.me/OddProjectS"),
+        InlineKeyboardButton("Support 💭", url="https://t.me/OddChats")
         ],[            
-        InlineKeyboardButton("ʜᴇʟᴩ", callback_data="help"),
-        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about") 
+        InlineKeyboardButton("Help ❄️", callback_data="help"),
+        InlineKeyboardButton("About 🤖", callback_data="about") 
     ]])
         
     await message.reply_text(text=txt.STAT.format(message.from_user.mention), reply_markup=button, disable_web_page_preview=True)
@@ -46,10 +46,10 @@ async def media_info(bot, m):
                                         
     if not md:
         buttons = [[
-            InlineKeyboardButton("✨️ Support", url="https://t.me/BETA_SUPPORT"),
-            InlineKeyboardButton("📢 Updates", url="https://t.me/Beta_BoTZ")
+            InlineKeyboardButton("Support ❄️", url="https://t.me/OddChatS"),
+            InlineKeyboardButton("Updates 📣", url="https://t.me/Oddprojects")
         ]]       
-        mkn = await m.reply("please wait....")
+        mkn = await m.reply("Please Wait....")
         if ff.photo:
            user_dp = await bot.download_media(message=ff.photo.big_file_id)
            await m.reply_photo(
