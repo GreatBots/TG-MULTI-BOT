@@ -2,22 +2,19 @@
 class txt(object):
     STAT = """Hello {} 👋🏻
 I'am A Multi use Bot with many usefull features.
-Eg:- Telegarph, Channel ID, Image editor etc... """
+I can do multiple things... Just Click On **Help** For More..."""
 
     ABT = """ 
-╔════❰ 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 ❱═❍
-║╭━━━━━━━━━━━━━━━➣
-║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {bot}
-║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/about_jeol>ᴊᴇᴏʟ</a>
-║┣⪼👨‍💻ᴅᴇᴠ 2 : <a href=https://t.me/mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
-║┣⪼❣️sᴏᴜʀᴄᴇ ᴄᴏᴅ : <a href=https://github.com/Itz-JEOL/TG-MULTI-BOT>ᴛɢ-ᴍᴜʟᴛɪ-ʙᴏᴛ</a>
-║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ3</a>
-║┣⪼📚ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a> 
-║┣⪼🗒️ᴠᴇʀsɪᴏɴ : 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 v3.0.1 
-║╰━━━━━━━━━━━━━━━➣
-╚══════════════════❍ """
+╭━━━━━━━━━━━━━━━➣
+┣⪼🤖 Name : {bot}
+┣⪼👨‍💻 Dev : <a href=https://t.me/vivek2k6>Vive𝙺</a>
+┣⪼❣️ Source Code : <a href=https://t.me/oddchats/145>Click Here</a>
+┣⪼🗣️ Language : <a href=https://www.python.org>Python3</a>
+┣⪼📚 Library : <a href=https://github.com/pyrogram>Pyrogram</a> 
+┣⪼🗒️ Version : Multi Bot v1
+╰━━━━━━━━━━━━━━━➣"""
 
-    HELP = """𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP = """Here Is My Usages. Click On The Buttons For More"""
 
     INFO = """◉ just send /id or info to get your tg id & info 🍁
 
@@ -42,46 +39,47 @@ media = [photo, video, audio, documents, sticker]"""
    
     CHANNEL_ID = "--"
 
-    TELE = """<b>▫️HELP: Telegraph▪️</b>
+    TELE = """<b>☆ HELP: Telegraph</b>
 
 Do as you wish with graph.org module!
 
-</b>USAGE:</b>
-◉ /telegraph - reply to below 5Mb media to get telegraph link💯 """
+<b>USAGE:</b>
+• /telegraph - reply to below 5Mb media to get telegraph link💯 """
 
-    PASTE = """Help: <b>Paste</b>
+    PASTE = """☆ Help: <b>Paste</b>
 
 Paste some texts or documents on a website!
 
-<b>Commands and Usage:</b>
+<b>Usage:</b>
 • /paste - Reply To A Message With /paste """
 
-    IMAGE = """➤ 𝐇𝐞𝐥𝐩: Iᴍᴀɢᴇ
+    IMAGE = """☆ Help: <b>Image</b>
 
-𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚎𝚍𝚒𝚝 𝚒𝚖𝚊𝚐𝚎 𝚟𝚎𝚛𝚢 𝚎𝚊𝚜𝚒𝚕𝚢
+This Command Helps You To Edit Images Easily
 
-➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
-➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨ """
+<b>Usage:</b>
+• Just sent me a image to edit ✨ """
   
-    STICKER = """ • 𝐔𝐒𝐀𝐆𝐄
+    STICKER = """☆ Help: <b>Sticker</b>
 Convert sticker to photo & create sticker pake & find sticker id.....
 
-⭕ 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
+<b>Usage:</b>
 
-◉ /s2_photo - Replay to Any sticker to convert to photo 
-◉ /kang - Reply To Sticker or PNG file to pake sticker 
-◉ /id or /info - Reply To Any Sticker or media to get id"""
+• /s2_photo - Replay to Any sticker to convert to photo 
+• /kang - Reply To Sticker or PNG file to pake sticker 
+• /id or /info - Reply To Any Sticker or media to get id"""
    
-    CARB_TXT = """☾︎𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗖𝗔𝗥𝗕𝗢𝗡☽︎
-𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
-𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙴 𝙼𝙾𝙳𝚄𝙻𝙴 𝙹𝚄𝚂𝚃 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝚃𝙴𝚇𝚃 𝙰𝙽𝙳 𝚁𝙴𝙿𝙻𝚈 𝚃𝙾 𝙸𝚃 𝚆𝙸𝚃𝙷 /carbon 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝚃𝙷𝙴 𝙱𝙾𝚃 𝚆𝙸𝙻𝙻 𝚁𝙴𝙿𝙻𝚈 𝚆𝙸𝚃𝙷 𝚃𝙷𝙴 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝙼𝙰𝙶𝙴                       
+    CARB_TXT = """☆ Help: <b>Carbon</b>
+Carbon Is a Feature To Make Your Text In A Image, Use to see
 
-◉ /carbon - use this command """
+• /carbon - replay to a text or sent text like /carbon Odd Projects"""
 
-    LOGO = """To Make Logo - /logo Your Name
+    LOGO = """☆ Help: <b>Logo</b>
+    
+To Make Logo - /logo Your Name
 To Make Square Logo -  /logosq Your Name
 
-♻️ Example:
+Example:
 /logo BETA
 /logosq MKN  """
 
@@ -104,7 +102,7 @@ To Make Square Logo -  /logosq Your Name
 𝙵𝙾𝙽𝚃 𝙸𝚂 𝙰 𝙼𝙾𝙳𝚄𝙻𝙴 𝙵𝙾𝚁 𝙼𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝚂𝚃𝚈𝙻𝙸𝚂𝙷.
 𝙵𝙾𝚁 𝚄𝚂𝙴 𝚃𝙷𝙰𝚃 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝚈𝙿𝙴 /font <your text> 𝚃𝙷𝙴𝙽 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈."""
  
-    TTS = """Help: <b> TTS 🎤 module:</b>
+    TTS = """☆ Help: <b> TTS 🎤 module:</b>
 
 Translate text to speech
 
